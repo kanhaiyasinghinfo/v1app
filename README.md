@@ -1,6 +1,6 @@
-# diabeto
+# Demo
 
-> Diabeto Companion
+> Demo App1
 
 ## Build Setup
 

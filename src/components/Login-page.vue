@@ -5,7 +5,7 @@
 <span>{{statusMessage}}</span>
 <span v-if="thisSubmit">{{msg}}</span>
 <button v-if="thisSubmit" v-on:click="back">Go back</button>
-<form v-on:submit="validateThis" method="post" novalidate="true" v-if="!thisSubmit"><fieldset>
+<form  method="post" novalidate="true" v-if="!thisSubmit"><fieldset>
 <legend>Login</legend>
 <table class="table-bordered">
 <tr>

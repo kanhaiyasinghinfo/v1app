@@ -26,7 +26,7 @@
                 </div>
                 </th>
                 </tr>
-<tr><td><button type="submit">login</button></td></tr>
+<tr><td><button type="submit" disabled="submit">login</button></td></tr>
 </table>
 </fieldset>
 </form></div>
@@ -51,23 +51,12 @@ export default{
        username: '',
        password: '',
        thisSubmit: false,
+       submit: false,
        msg: '',
        statusMessage: ''
       }
     },
     methods:{
-        validateThis: function(e){
-            if (!this.errors.any() && this.username!="" && this.password!="") {
-            this.thisSubmit = true;
-            //this.username = "";
-            //this.password = "";
-            this.msg = "Login successfull";
-            e.preventDefault();
-            } else {
-                //this.thisSubmit = false;
-                  e.preventDefault();
-              }
-        },
         back: function(e){
             this.validateThis(e)
         }

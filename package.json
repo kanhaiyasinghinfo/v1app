@@ -1,7 +1,7 @@
 {
-  "name": "diabeto",
+  "name": "Demo",
   "version": "1.0.0",
-  "description": "Diabeto Companion",
+  "description": "Demo App1",
   "author": "Kanhaiya Singh",
   "private": true,
   "scripts": {
